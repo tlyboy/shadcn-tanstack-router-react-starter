@@ -51,7 +51,6 @@ Install TanStack libraries such as Table or Form directly with pnpm. Agent skill
 ### Check
 
 ```bash
-pnpm typecheck
 pnpm lint
 pnpm check
 ```

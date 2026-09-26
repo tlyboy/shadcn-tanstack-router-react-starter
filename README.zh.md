@@ -51,7 +51,6 @@ Table、Form 等 TanStack 库直接用 pnpm 安装。`@tanstack/*` 包自带的 
 ### 检查
 
 ```bash
-pnpm typecheck
 pnpm lint
 pnpm check
 ```
