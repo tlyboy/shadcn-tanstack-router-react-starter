@@ -1,4 +1,4 @@
-# tanstack-shadcn-react-starter
+# shadcn-tanstack-router-react-starter
 
 🚀 TanStack Router SPA starter with shadcn/ui
 
@@ -12,7 +12,7 @@
 ## Install
 
 ```bash
-npx degit tlyboy/tanstack-shadcn-react-starter my-project
+npx degit tlyboy/shadcn-tanstack-router-react-starter my-project
 cd my-project
 pnpm install
 ```

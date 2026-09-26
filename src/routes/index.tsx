@@ -7,7 +7,7 @@ export const Route = createFileRoute('/')({ component: Home })
 function Home() {
   return (
     <div className="flex h-full flex-col items-center justify-center gap-4">
-      <div>TanStack shadcn react starter</div>
+      <div>shadcn TanStack Router react starter</div>
 
       <div className="flex items-center gap-2 text-xl">
         <Button
@@ -17,7 +17,7 @@ function Home() {
           nativeButton={false}
           render={
             <a
-              href="https://github.com/tlyboy/tanstack-shadcn-react-starter"
+              href="https://github.com/tlyboy/shadcn-tanstack-router-react-starter"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
