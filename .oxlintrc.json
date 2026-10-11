@@ -12,11 +12,7 @@
       // Keep components pulled from shadcn exactly as upstream; don't change them just to satisfy lint.
       // Route files must export Route next to their component, which is TanStack Router's file-based
       // routing contract, and theme-provider exports the useTheme hook. Neither can satisfy the rule.
-      "files": [
-        "src/components/ui/**",
-        "src/components/theme-provider.tsx",
-        "src/routes/**"
-      ],
+      "files": ["src/components/ui/**", "src/components/theme-provider.tsx", "src/routes/**"],
       "rules": { "react/only-export-components": "off" }
     }
   ]
