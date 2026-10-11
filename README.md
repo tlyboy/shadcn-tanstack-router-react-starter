@@ -12,7 +12,7 @@
 ## Install
 
 ```bash
-npx degit tlyboy/shadcn-tanstack-router-react-starter my-project
+npx giget gh:tlyboy/shadcn-tanstack-router-react-starter my-project
 cd my-project
 pnpm install
 ```
