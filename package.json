@@ -7,13 +7,13 @@
     "#/*": "./src/*"
   },
   "scripts": {
-    "dev": "vite dev --port 3000",
-    "generate-routes": "tsr generate",
     "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint",
-    "format": "prettier --write . && eslint --fix",
-    "check": "prettier --check ."
+    "check": "oxfmt --check .",
+    "dev": "vite dev --port 3000",
+    "format": "oxfmt . && oxlint --fix",
+    "generate-routes": "tsr generate",
+    "lint": "oxlint",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
@@ -36,7 +36,6 @@
     "@babel/core": "^8.0.6",
     "@rolldown/plugin-babel": "^0.2.4",
     "@tanstack/devtools-vite": "^0.8.5",
-    "@tanstack/eslint-config": "^0.4.0",
     "@tanstack/router-cli": "^1.167.38",
     "@tanstack/router-plugin": "^1.168.40",
     "@types/babel__core": "^7.20.5",
@@ -45,10 +44,9 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.1",
     "babel-plugin-react-compiler": "^1.0.0",
-    "eslint": "^9.39.5",
-    "prettier": "^3.9.9",
-    "prettier-plugin-tailwindcss": "^0.8.1",
-    "typescript": "^6.0.3",
+    "oxfmt": "0.72.0",
+    "oxlint": "^1.87.0",
+    "typescript": "^7.0.2",
     "vite": "^8.3.1"
   },
   "intent": {

@@ -1,5 +1,5 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.formatOnSave": true,
   "editor.quickSuggestions": {
     "strings": "on"
@@ -7,7 +7,6 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "prettier.enable": true,
   "files.watcherExclude": {
     "**/routeTree.gen.ts": true
   },
