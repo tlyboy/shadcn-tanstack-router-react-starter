@@ -1,0 +1,3 @@
+.agents/** linguist-vendored
+.claude/** linguist-vendored
+src/routeTree.gen.ts linguist-generated
